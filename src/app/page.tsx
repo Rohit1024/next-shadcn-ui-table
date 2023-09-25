@@ -4,6 +4,8 @@ import { Shell } from "@/components/shells/shell";
 import { taskSchema } from "@/lib/validations/schema";
 import { z } from "zod";
 
+export const runtime = 'edge';
+
 async function getTasks() {
   const res = await fetch(
     "https://my.api.mockaroo.com/tasks.json?key=f0933e60"

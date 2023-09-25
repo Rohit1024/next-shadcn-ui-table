@@ -75,7 +75,7 @@ export default function EditDialog({ task }: EditProps) {
     console.log(values);
   }
   return (
-    <div>
+    <>
       <DialogHeader>
         <DialogTitle>Edit Task Details</DialogTitle>
       </DialogHeader>
@@ -238,6 +238,6 @@ export default function EditDialog({ task }: EditProps) {
           </form>
         </Form>
       </div>
-    </div>
+    </>
   );
 }
